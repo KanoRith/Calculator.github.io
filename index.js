@@ -13,4 +13,7 @@ function calculate(){
   catch(error){
     display.value = "Error";
   }
+    function backspace(input){
+    display.value =  display.value.slice(0, -1);
+}
 }
